@@ -3,7 +3,7 @@ package problem2
 import org.scalatest.{MustMatchers, WordSpec}
 
 class Problem2Spec extends WordSpec with MustMatchers {
-  import Problem2.{calculate, calculate2, calculate3}
+  import Problem2._
 
   "calculate method" should {
 
@@ -17,6 +17,7 @@ class Problem2Spec extends WordSpec with MustMatchers {
         calculate(input) mustBe expectedResult
         calculate2(input) mustBe expectedResult
         calculate3(input) mustBe expectedResult
+        calculate4(input) mustBe expectedResult
       }
     }
 
@@ -30,6 +31,7 @@ class Problem2Spec extends WordSpec with MustMatchers {
         calculate(input) mustBe expectedResult
         calculate2(input) mustBe expectedResult
         calculate3(input) mustBe expectedResult
+        calculate4(input) mustBe expectedResult
       }
     }
 
@@ -43,6 +45,7 @@ class Problem2Spec extends WordSpec with MustMatchers {
         calculate(input) mustBe expectedResult
         calculate2(input) mustBe expectedResult
         calculate3(input) mustBe expectedResult
+        calculate4(input) mustBe expectedResult
       }
     }
 
@@ -56,6 +59,7 @@ class Problem2Spec extends WordSpec with MustMatchers {
         calculate(input) mustBe expectedResult
         calculate2(input) mustBe expectedResult
         calculate3(input) mustBe expectedResult
+        calculate4(input) mustBe expectedResult
       }
     }
   }

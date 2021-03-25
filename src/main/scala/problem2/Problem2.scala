@@ -32,4 +32,11 @@ object Problem2 {
       result
     }
   }
+
+  def calculate4(input: Seq[Int]): Seq[Int] = {
+
+    val multipledList = input.reduce(_ * _)
+
+    input.map(multipledList / _)
+  }
 }
